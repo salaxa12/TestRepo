@@ -15,8 +15,7 @@ public class TextManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //PlayerPrefs.SetInt("highScore", 0);
-        PlayerPrefs.SetString("highScoreName", "none");
+        
 
         mainManager = GameObject.Find("MainManager").GetComponent<MainManager>();
         highScore = PlayerPrefs.GetInt("highScore");
