@@ -16,7 +16,7 @@ public class TextManager : MonoBehaviour
     void Start()
     {
         //PlayerPrefs.SetInt("highScore", 0);
-        //PlayerPrefs.SetString("highScoreName", "none");
+        PlayerPrefs.SetString("highScoreName", "none");
 
         mainManager = GameObject.Find("MainManager").GetComponent<MainManager>();
         highScore = PlayerPrefs.GetInt("highScore");
